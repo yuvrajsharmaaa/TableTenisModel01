@@ -1,0 +1,22 @@
+# ── Core inference ─────────────────────────────────────────────────────────────
+ultralytics>=8.1.0          # YOLOv8 (CUDA support auto-detected)
+supervision>=0.19.0         # ByteTrack tracker + sv.Detections helper
+
+# ── Pose estimation ────────────────────────────────────────────────────────────
+mediapipe>=0.10.9           # MediaPipe Pose Lite
+
+# ── Computer vision ────────────────────────────────────────────────────────────
+opencv-python-headless>=4.9.0
+numpy>=1.24.0
+
+# ── Streamlit UI ───────────────────────────────────────────────────────────────
+streamlit>=1.32.0
+pandas>=2.0.0               # analytics dataframe + CSV export
+
+# ── Scientific ─────────────────────────────────────────────────────────────────
+scipy>=1.11.0               # spline smoothing for chart display (centralelyon)
+
+# ── Optional – GPU acceleration ────────────────────────────────────────────────
+# torch + torchvision are pulled in by ultralytics automatically.
+# For RTX 3070 (CUDA 12.x) you may want to pre-install:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
