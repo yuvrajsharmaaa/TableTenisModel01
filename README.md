@@ -237,7 +237,7 @@ Pose is computed every 3 frames by default (`pose_every=3`) to stay comfortably 
 
 ---
 
-## Credits
+## Refrence
 
 - **Posture analysis pipeline** — [wutonytt/Camera-Based-Table-Tennis-Posture-Analysis](https://github.com/wutonytt/Camera-Based-Table-Tennis-Posture-Analysis)
 - **Ball tracking & Kalman filter** — [ckjellson/tt_tracker](https://github.com/ckjellson/tt_tracker)
